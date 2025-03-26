@@ -10,4 +10,9 @@ class HelloWorldController extends Controller
     {
         return view('hello');
     }
+	
+    public function showGoodBye()
+    {
+        return 'Good Bye';
+    }
 }
